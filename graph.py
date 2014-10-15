@@ -1,3 +1,6 @@
+# Help from:
+#     http://interactivepython.org/courselib/static/pythonds/Graphs/graphintro.html
+
 class Graph:
     def __init__(self):
         self.vertices = {}
@@ -15,7 +18,6 @@ class Graph:
 
     def add_vertices(self, words):
         added = []
-        from IPython import embed
 
         for word in words:
             sorted_word = ''.join(sorted(word))
